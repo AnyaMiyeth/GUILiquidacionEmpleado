@@ -10,6 +10,7 @@ namespace BLL
 {
     public class LiquidacionNominaService
     {
+
         public Liquidacion liquidacionNomina { get; set; }
 
         public List<LiquidacionDto> Consultar()
